@@ -1,0 +1,12 @@
+
+.\Wintrader\Scripts\activate
+
+python 3 trader.py
+python trader.py
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bruce95317/backtrader.git
+git push -u origin main
