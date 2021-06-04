@@ -52,7 +52,7 @@ cerebro.broker.set_cash(1000000)
 
 strategy_name = input("What strategy do you want to choose?")
 
-df = get_data('AMZN','2000, 1, 22','2021, 1, 22')
+df = get_data('AAPL','2020, 1, 22','2021, 1, 22')
 
 if strategy_name == 'SMA':
     run_SMA(df)
